@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>User Registration</title>
+      <style>
+      
+      h1 {text-align: center;}
+      
+      #ab {background-color:#ADD8E6;
+       border: solid blue;
+       border-width: thick;
+       overflow:hidden;
+       display:block;}
+      
+      body{padding-left: 400px;
+      padding-right: 400px;}
+      
+      </style>
+   </head>
+	
+ 
+   
+   
+   <div id=ab align="center">
+      <form action="UserProcess" method="post" >
+         <h1>USER REGISTRATION</h1>
+         <table>
+         
+         <tr>
+         	<td>First Name:</td>
+         	<td><input type="text" name="first name" placeholder="enter here"   required></td>
+         </tr>
+
+		 <tr>
+         	<td>Last Name:</td>
+         	<td><input type="text" name="last name" placeholder="enter here"   required></td>
+         </tr>
+         
+         <tr>
+         	<td>Email:</td>
+         	<td>  <label for="email"></label>
+ 				 <input type="email" id="email" name="email" placeholder="enter here"></td>
+         </tr>
+         
+         <tr>
+         	<td>Zipcode:</td>
+         	<td><input type="text" name="zipcode" placeholder="enter here"   required></td>
+         </tr>
+         
+         <tr>
+         	<td>User name:</td>
+         	<td><input type="text" name="user name" placeholder="enter here"  required></td>
+         </tr>
+         
+         <tr>
+         	<td>Password:</td>
+         	<td><input type="text" name="password" placeholder="enter here"  required></td>
+         </tr>
+         
+         <tr>
+         	<td>Confirm Password:</td>
+         	<td><input type="text" name="confirm password" placeholder="enter here"  required></td>
+         </tr>
+         
+         <tr>
+         <td>
+         <h4>What Music you are interested in ?</h4>
+         <input type="checkbox" class ="checkoption" id="Rock" name="music" value="Rock" onclick="checkedOnClick(this);" >
+         <label for="Rock"> Rock</label>
+         <input type="checkbox" class ="checkoption" id="Pop" name="music" value="Pop" onclick="checkedOnClick(this);" >
+         <label for="Pop"> Pop</label>
+         <input type="checkbox" class ="checkoption" id="Bluegrass" name="music" value="Bluegrass" onclick="checkedOnClick(this);" >
+         <label for="Bluegrass"> Bluegrass</label>
+         <input type="checkbox" class ="checkoption"  id="Jazz" name="music" value="Jazz" onclick="checkedOnClick(this);" >
+         <label for="Jazz"> Jazz</label>
+         <input type="checkbox" class ="checkoption" id="Country" name="music" value="Country" onclick="checkedOnClick(this);" >
+         <label for="Country"> Country</label>
+         <input type="checkbox" class ="checkoption" id="All" name="music" value="All" onclick="checkedOnClick(this);" >
+         <label for="All"> All</label>
+		 </td>
+		 </tr>
+		 
+		 <tr>
+         <td>
+         <h4>Would you like to receive e-mail notification on our special sale ?</h4>
+         </td>
+         </tr>
+         
+         <tr>
+         <td>
+         
+          <input type="radio" id="yes" name="yn" value="yes" >
+          <label for="yes">YES</label><br>
+          <input type="radio" id="no" name="yn" value="no" >
+          <label for="no">NO</label><br>
+  
+         
+         <!--<input type="radio" id="yes" name="yn" value="yes">         
+  		 <label for="yes">yes</label>
+  		 <input type="radio" id="no" name="yn" value="no">
+  		 <label for="no">no</label>-->
+         </td>
+         </tr>
+		 
+		 <tr>
+		 <td style="padding:30px" align=center>
+		 <button type="submit" value="Submit">Submit</button>&nbsp;&nbsp;
+         <button type="reset" value="Reset">Reset</button> 
+		 </td>
+		 </tr>
+		 
+		
+         </table>
+      </form>
+   </div>
+   </body>
+   
+	
+</html>

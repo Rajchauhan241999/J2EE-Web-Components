@@ -1,0 +1,12 @@
+127.0.0.1 - - [14/Oct/2022:22:52:33 -0400] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [14/Oct/2022:22:52:34 -0400] "GET /Assignment2-Raj/showRecords HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [14/Oct/2022:22:52:34 -0400] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [14/Oct/2022:22:52:37 -0400] "GET /Assignment2-Raj/showRecords HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [14/Oct/2022:22:52:37 -0400] "GET /Assignment2-Raj/showRecords HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [14/Oct/2022:22:52:38 -0400] "GET /Assignment2-Raj/showRecords HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [14/Oct/2022:22:52:38 -0400] "GET /Assignment2-Raj/showRecords HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [14/Oct/2022:22:52:39 -0400] "GET /Assignment2-Raj/showRecords HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [14/Oct/2022:22:52:39 -0400] "GET /Assignment2-Raj/showRecords HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [14/Oct/2022:22:52:39 -0400] "GET /Assignment2-Raj/showRecords HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [14/Oct/2022:22:52:39 -0400] "GET /Assignment2-Raj/showRecords HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [14/Oct/2022:22:52:39 -0400] "GET /Assignment2-Raj/showRecords HTTP/1.1" 404 782

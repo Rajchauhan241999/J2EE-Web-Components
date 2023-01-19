@@ -1,0 +1,13 @@
+127.0.0.1 - - [09/Dec/2022:12:57:51 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:12:57:51 -0500] "GET /Assignment5-Raj/ HTTP/1.1" 200 201
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:12:57:51 -0500] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:12:57:54 -0500] "GET /Assignment5-Raj/read HTTP/1.1" 200 559
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:12:57:58 -0500] "GET /Assignment5-Raj/add HTTP/1.1" 200 723
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:12:58:13 -0500] "GET /Assignment5-Raj/addFriend?id=16&name=xyz&email=abc%40gmail.com&age=22&color=black&submit=Submit HTTP/1.1" 200 638
+127.0.0.1 - - [09/Dec/2022:22:05:18 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:22:05:19 -0500] "GET /Assignment5-Raj/ HTTP/1.1" 200 201
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:22:05:19 -0500] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:22:05:30 -0500] "GET /Assignment5-Raj/read HTTP/1.1" 200 638
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:22:05:33 -0500] "GET /Assignment5-Raj/add HTTP/1.1" 200 723
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:22:05:57 -0500] "GET /Assignment5-Raj/addFriend?id=17&name=Mirul&email=xyz%40out.com&age=25&color=red&submit=Submit HTTP/1.1" 200 715
+0:0:0:0:0:0:0:1 - - [09/Dec/2022:22:06:31 -0500] "GET /Assignment5-Raj/add HTTP/1.1" 200 723
